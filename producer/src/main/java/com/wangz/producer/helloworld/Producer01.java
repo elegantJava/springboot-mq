@@ -45,7 +45,7 @@ public class Producer01 {
             channel.queueDeclare(QUEUE_NAME,true,false,false,null );
 
             // 4.定义待消费的消息
-            String message = "hello mq test!"+System.currentTimeMillis();
+            String message = "hello mq test! @"+System.currentTimeMillis();
 
             /**
              * 5.消息的发布--以二进制流形式

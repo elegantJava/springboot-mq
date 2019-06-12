@@ -53,6 +53,9 @@ public class Consumer01 {
                 long deliveryTag = envelope.getDeliveryTag();
                 String msg = new String(body, Charset.forName("utf-8"));
 
+                System.out.println("exchange::"+exchange);
+                System.out.println("routingKey::"+routingKey);
+                System.out.println("deliveryTag::"+deliveryTag);
                 System.out.println("接收到的消息为：'" + msg+ "'");
             }
         };
