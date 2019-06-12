@@ -1,13 +1,13 @@
-package com.wangz.mq;
+package com.wangz.consumer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MqApplication {
+public class ConsumerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(MqApplication.class, args);
+        SpringApplication.run(ConsumerApplication.class, args);
     }
 
 }

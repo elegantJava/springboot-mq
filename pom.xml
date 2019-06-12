@@ -8,11 +8,19 @@
         <version>2.1.5.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
+
+    <modules>
+        <module>producer</module>
+        <module>consumer</module>
+    </modules>
+
     <groupId>com.wangz</groupId>
     <artifactId>mq</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>mq</name>
     <description>Demo project for Spring Boot</description>
+    <packaging>pom</packaging>
+
 
     <properties>
         <java.version>1.8</java.version>
